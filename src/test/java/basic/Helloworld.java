@@ -1,7 +1,9 @@
 package basic;
 
 public class Helloworld {
-    public static void main(String[] args) {
+
+
+    public void tc1() {
 
         System.out.println("Hello and welcome!");
 
@@ -9,5 +11,10 @@ public class Helloworld {
 
             System.out.println("i = " + i);
         }
+    }
+
+    public static void main(String[] args) {
+        Helloworld hw = new Helloworld();
+        hw.tc1();
     }
 }

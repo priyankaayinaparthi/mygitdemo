@@ -1,0 +1,7 @@
+package basic;
+
+public class SentBox {
+    public void tc3(){
+        System.out.println("from tc3");
+    }
+}
